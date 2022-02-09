@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Emanuel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.28.1",
+    "cors": "^2.8.5",
+    "dompurify": "^2.3.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "jsdom": "^19.0.0",
+    "marked": "^4.0.8",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "slugify": "^1.6.5"
+  }
+}
